@@ -1,7 +1,7 @@
 const faker = require('faker')
 const boom = require('@hapi/boom')
 
-class PlayersService {
+class playersService {
     constructor() {
         this.players = []
         this.generate()
