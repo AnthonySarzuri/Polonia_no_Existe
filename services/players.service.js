@@ -12,11 +12,12 @@ class playersService {
             this.players.push({
                 id: faker.datatype.uuid(),
                 name: faker.name.firstName(),
-                lastname: faker.name.lastname(),
+                lastname: faker.name.lastName(),
                 age: parseInt(faker.random.number(99)),
                 phone: faker.phone.phoneNumber(),
                 image: faker.image.avatar()
             })
+
         }
     }
     async create(data) {
