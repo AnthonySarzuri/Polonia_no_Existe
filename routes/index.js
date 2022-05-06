@@ -17,6 +17,4 @@ function routerApi(app) {
     router.use('/courses', courses)
 }
 
-holaaaa
-
 module.exports = routerApi
