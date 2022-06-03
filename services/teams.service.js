@@ -11,7 +11,7 @@ class teamsService {
         for (let index = 0; index < limit; index++) {
             this.teams.push({
                 id: faker.datatype.uuid(),
-                name: faker.name.newTeam(),
+                name: faker.name.lastName(),
                 couchname: faker.name.firstName(),
                 phone: faker.phone.phoneNumber(),
                 image: faker.image.sports()

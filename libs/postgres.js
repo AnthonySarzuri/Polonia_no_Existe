@@ -2,7 +2,7 @@ const {Client}=require('pg')
 
 async function getConnection(){
     const client =new Client({
-        host:'172.19.0.2',
+        host:'172.18.0.3',
         port:5432,
         user:root,
         database:my_db
